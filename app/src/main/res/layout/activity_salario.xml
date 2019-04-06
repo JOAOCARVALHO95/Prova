@@ -90,12 +90,20 @@
         android:layout_width="0dp"
         android:layout_height="38dp"
         android:layout_marginBottom="251dp"
+        android:onClick="calcular"
         android:text="MOSTRAR NOVO SALÁRIO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rg" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="369dp"
+        android:layout_height="25dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="356dp" />
     <!-- ira chamar o metodo proximaTela -->
     android:onClick="result"
     tools:layout_editor_absoluteX="16dp"
